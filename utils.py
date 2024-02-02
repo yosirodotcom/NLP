@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import TweetTokenizer
 
-
+# cleaning tweet text and create list of word
 def process_tweet(tweet):
     """Process tweet function.
     Input:
